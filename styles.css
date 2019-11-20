@@ -1,0 +1,35 @@
+#ls_container div {
+    margin: 0 0px;
+    transform: translateX(0px);
+    position: absolute;
+}
+
+#ls_container div img {
+    width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+    padding: 0 5px;
+}
+
+#lightSlider {
+    display: flex;
+    align-items: center;
+}
+
+#ls_left,
+#ls_right {
+    font-size: 2rem;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    z-index: 100;
+}
+
+#ls_container {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    border: solid 2px #000;
+}
